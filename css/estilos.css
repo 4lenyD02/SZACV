@@ -1,0 +1,406 @@
+
+#body{
+    display: flex;
+    flex-flow: wrap;
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    background: #F3F6FF;
+}
+
+#columna1{
+  background: #F3F6FF;
+
+}
+  .rectangle {
+    background-color:#E2ECFF; 
+    width: 350px; 
+    height: 680px; 
+    margin-left: 100px;
+    display: flex; 
+    justify-content: center;
+    position: relative;
+  }
+
+  .fotoPerfil {
+    border-radius: 50%; 
+    width: 200px; 
+    height: 200px; 
+    margin-top: 100px;
+  }
+
+  .sign {
+    width: 100px;
+    height: 100px;
+    margin-top: 230px;
+    padding: 0%;
+    position: absolute;
+    right: 45px;
+    }
+
+  .contacto {
+    flex-flow: wrap;
+    position: absolute;
+    font-size: 22px;
+    top: 320px;
+    left: 40px;
+    font-weight: 500;
+  }
+
+  .info{
+    font-weight: 200;
+    position: absolute;
+    margin: 385px auto;
+    line-height: 30px;
+  }
+
+  .socials{
+    flex-flow: wrap;
+    position: absolute;
+    font-size: 22px;
+    top: 480px;
+    left: 40px;
+    font-weight: 500; 
+  }
+
+    
+  .socialtext{
+    text-decoration: none;
+    color: black;
+    font-weight: 200; 
+  }
+
+  .ig{
+    flex-flow: wrap;
+    position: absolute;
+    top: 530px;
+    left: 50px;
+  }
+
+  .spotify{
+    flex-flow: wrap;
+    position: absolute;
+    top: 570px;
+    left: 50px;
+  }
+ 
+  .youtube{
+    flex-flow: wrap;
+    position: absolute;
+    top: 610px;
+    left: 50px;
+  }
+
+
+  /*Empieza la segunda columna*/
+  
+  #columna2 {
+    margin-left: 80px;
+    margin-top: 120px;
+    background: #F3F6FF;
+  }
+
+  #nombre{
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 5px;
+    margin-top: 0%;
+  }
+
+  #prof{
+    font-weight: 200; 
+    font-size: 25px;
+    margin-top: 5px;
+  }
+
+  #perfil{
+    margin-top: 80px;
+  
+  }
+
+  .subtc2{
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .p1 {
+    font-weight: 200;
+    margin-bottom: 50px;
+    margin-top: 0;
+    line-height: 22px;
+  }
+
+  .info2{
+    font-weight: 200;
+    line-height: 30px;
+    margin-top: 0;
+  }
+
+
+
+
+  /* Slider Albums*/
+
+#albumsbckg {
+  padding: 6vh ;
+  margin-top: 10vh;
+  height: 60vh;
+  width: 100%;
+  background: #E2ECFF;
+  justify-content: center;
+  overflow: hidden;
+
+}
+.subtCentrados{
+  font-weight: 400;
+  display: flex;
+  flex-wrap: wrap;
+justify-content: center;
+margin: 0 auto;
+}
+
+#albumscont {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#albumscont img {
+  width: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+#albumstext1 , #albumstext2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.a1 {
+  display: flex;
+  font-weight: 400;
+    line-height: 10px;
+    width: 380px;
+    justify-content: center;
+    margin: 0%;
+}
+
+.a2{
+  display: flex;
+  font-weight: 200;
+    line-height: 10px;
+    width: 380px;
+    justify-content: center;
+}
+
+.sos:hover{
+  animation-name: hoverscale;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+.ctrl:hover{
+  animation-name: hoverscale;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+}
+
+.gah:hover{
+  animation-name: hoverscale;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+
+}
+
+
+@keyframes hoverscale{
+
+0%{
+  transform: scale(1);
+}
+50%{
+  transform: scale(1.08);
+}
+100%{
+  transform: scale(1)
+}
+}
+
+
+/*Habilidades y Educación */
+
+.habilidadestit {
+  flex-flow: wrap;
+  font-size: 22px;
+  margin-top: 90px;
+  margin-left: 130px;
+  font-weight: 500;
+}
+
+.htext{
+  font-weight: 200;
+    line-height: 30px;
+    margin-top: 0;
+    margin-left: 130px;
+}
+
+
+
+/*Billboards Women in Music*/
+
+#billboardsw{
+  display: flex;
+  margin-left: 210px;
+  margin-top: 100px;
+  background: #F3F6FF;
+}
+
+.rectangle2 {
+  width: 40px;
+  border: 1.5px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform: rotate(180deg);
+  margin: 10px;
+}
+
+.textobarra {
+  font-style: italic;
+  font-weight: 100;
+  writing-mode: vertical-lr;
+  text-align: center;
+  margin: 15px;
+}
+
+#awardtext{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textos2b1{
+  margin-left: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.textos2b2{
+  margin-left: 30px;
+  font-weight: 100;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.textos2b3{
+  margin-left: 30px;
+  font-weight: 100;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+#iheart, #billboards, #amas, #bet{
+  display: flex;
+  margin-left: 542px;
+  margin-top: 10px;
+  background: #F3F6FF;
+}
+
+.footerbckg{
+  background-color: #E2ECFF;
+  width: 1500px;
+  height: 90px;
+  justify-content: center;
+}
+
+.footertext{
+  font-size: 30px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+
+  .rectangle{
+    width: 100vw;
+  }
+
+
+
+  #albumsbckg {
+    padding: 6vh ;
+    margin-top: 10vh;
+    height: 60vh;
+    width: 100%;
+    background: #E2ECFF;
+    justify-content: center;
+    overflow: hidden;
+  
+  }
+  .subtCentrados{
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  }
+  
+  #albumscont {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #albumscont img {
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  #albumstext1 , #albumstext2 {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .a1 {
+    display: flex;
+    font-weight: 400;
+      line-height: 10px;
+      width: 380px;
+      justify-content: center;
+      margin: 0%;
+  }
+  
+  .a2{
+    display: flex;
+    font-weight: 200;
+      line-height: 10px;
+      width: 380px;
+      justify-content: center;
+  }
+  
+
+
+
+  #billboardsw, #iheart, #billboards, #amas, #bet{
+    margin-left: 120px;
+    width: 400px;
+  }
+}
