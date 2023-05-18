@@ -1,4 +1,4 @@
 # SZACV
 CV Wireframe y HTML
-Aleny Duque
-Comunnicaciónn Digital
+Aleny Duque 0123619
+## Comunicación Digital
