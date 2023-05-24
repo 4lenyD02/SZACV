@@ -1,4 +1,4 @@
-# SZA CV Wireframe y HTML
+# TP3: SZA CV Wireframe y HTML
 Aleny Duque <br>
 0123619 <br>
 Contenidos y Creatividad II
