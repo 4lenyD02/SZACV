@@ -1,5 +1,5 @@
 # SZA CV
-CV Wireframe y HTML
+CV Wireframe y HTML <br>
 Aleny Duque 
 0123619
 Contenidos y Creatividad II
