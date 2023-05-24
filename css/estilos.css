@@ -1,406 +1,808 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap');
 
-#body{
-    display: flex;
-    flex-flow: wrap;
-    font-family: 'Inter', sans-serif;
-    margin: 0%;
-    background: #F3F6FF;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-#columna1{
-  background: #F3F6FF;
-
-}
-  .rectangle {
-    background-color:#E2ECFF; 
-    width: 350px; 
-    height: 680px; 
-    margin-left: 100px;
-    display: flex; 
-    justify-content: center;
-    position: relative;
-  }
-
-  .fotoPerfil {
-    border-radius: 50%; 
-    width: 200px; 
-    height: 200px; 
-    margin-top: 100px;
-  }
-
-  .sign {
-    width: 100px;
-    height: 100px;
-    margin-top: 230px;
-    padding: 0%;
-    position: absolute;
-    right: 45px;
-    }
-
-  .contacto {
-    flex-flow: wrap;
-    position: absolute;
-    font-size: 22px;
-    top: 320px;
-    left: 40px;
-    font-weight: 500;
-  }
-
-  .info{
-    font-weight: 200;
-    position: absolute;
-    margin: 385px auto;
-    line-height: 30px;
-  }
-
-  .socials{
-    flex-flow: wrap;
-    position: absolute;
-    font-size: 22px;
-    top: 480px;
-    left: 40px;
-    font-weight: 500; 
-  }
-
-    
-  .socialtext{
-    text-decoration: none;
-    color: black;
-    font-weight: 200; 
-  }
-
-  .ig{
-    flex-flow: wrap;
-    position: absolute;
-    top: 530px;
-    left: 50px;
-  }
-
-  .spotify{
-    flex-flow: wrap;
-    position: absolute;
-    top: 570px;
-    left: 50px;
-  }
- 
-  .youtube{
-    flex-flow: wrap;
-    position: absolute;
-    top: 610px;
-    left: 50px;
-  }
-
-
-  /*Empieza la segunda columna*/
-  
-  #columna2 {
-    margin-left: 80px;
-    margin-top: 120px;
-    background: #F3F6FF;
-  }
-
-  #nombre{
-    font-weight: 500;
-    font-size: 45px;
-    margin-bottom: 5px;
-    margin-top: 0%;
-  }
-
-  #prof{
-    font-weight: 200; 
-    font-size: 25px;
-    margin-top: 5px;
-  }
-
-  #perfil{
-    margin-top: 80px;
-  
-  }
-
-  .subtc2{
-    font-weight: 400;
-    margin-bottom: 10px;
-  }
-
-  .p1 {
-    font-weight: 200;
-    margin-bottom: 50px;
-    margin-top: 0;
-    line-height: 22px;
-  }
-
-  .info2{
-    font-weight: 200;
-    line-height: 30px;
-    margin-top: 0;
-  }
-
-
-
-
-  /* Slider Albums*/
-
-#albumsbckg {
-  padding: 6vh ;
-  margin-top: 10vh;
-  height: 60vh;
-  width: 100%;
-  background: #E2ECFF;
-  justify-content: center;
-  overflow: hidden;
-
-}
-.subtCentrados{
-  font-weight: 400;
-  display: flex;
-  flex-wrap: wrap;
-justify-content: center;
-margin: 0 auto;
+body{
+  font-family: 'Work Sans', sans-serif;
+  background: #F26D3D;
+  /*background: #F3F6FF;*/
 }
 
-#albumscont {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
+/*textos general*/
 
-#albumscont img {
-  width: 300px;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 20px;
-  margin-top: 40px;
-}
-
-#albumstext1 , #albumstext2 {
-  display: flex;
-  justify-content: center;
-  
-}
-
-.a1 {
-  display: flex;
-  font-weight: 400;
-    line-height: 10px;
-    width: 380px;
-    justify-content: center;
-    margin: 0%;
-}
-
-.a2{
-  display: flex;
-  font-weight: 200;
-    line-height: 10px;
-    width: 380px;
-    justify-content: center;
-}
-
-.sos:hover{
-  animation-name: hoverscale;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-}
-.ctrl:hover{
-  animation-name: hoverscale;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-}
-
-.gah:hover{
-  animation-name: hoverscale;
-  animation-duration: 1s;
-  animation-timing-function: ease;
-
-}
-
-
-@keyframes hoverscale{
-
-0%{
-  transform: scale(1);
-}
-50%{
-  transform: scale(1.08);
-}
-100%{
-  transform: scale(1)
-}
-}
-
-
-/*Habilidades y Educación */
-
-.habilidadestit {
-  flex-flow: wrap;
-  font-size: 22px;
-  margin-top: 90px;
-  margin-left: 130px;
-  font-weight: 500;
-}
-
-.htext{
-  font-weight: 200;
-    line-height: 30px;
-    margin-top: 0;
-    margin-left: 130px;
-}
-
-
-
-/*Billboards Women in Music*/
-
-#billboardsw{
-  display: flex;
-  margin-left: 210px;
-  margin-top: 100px;
-  background: #F3F6FF;
-}
-
-.rectangle2 {
-  width: 40px;
-  border: 1.5px solid black;
+.boxsubt{
+  margin-bottom: 2em;
+  width: 12em;
+  border: 1.5px solid #000b15;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  height: 3em;
+}
+  
+.subt{
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+  
+.subtflip{
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 0%;
+  writing-mode: vertical-lr;
   transform: rotate(180deg);
+  align-self: center;
+}
+
+.subtflip2{
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 0%;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+  align-self: center;
+  flex-wrap: wrap;
+}
+  
+.textlista{
+  text-decoration: none;
+  color: #000b15;
+  font-weight: 200; 
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.textlista1{
+    text-decoration: none;
+    color: #000b15;
+    font-weight: 200; 
+    line-height: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text{
+  text-decoration: none;
+  color: #000b15;
+  font-weight:200; 
+}
+  
+.sub2{
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 0%;
+  margin-top: 1.2em;
+  margin-bottom: 0.2em;
+}
+
+
+/*Rectángulo principal*/
+
+.section1 {
+  display: flex;
+  padding: 0px;
+  background: #F3F6FF;
+  margin: 2em;
+}
+
+.section1 .perfil1 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c9daf7;
+  padding: 4vw;
+}
+
+.section1 .perfil1 .fotoPerfil {
+  border-radius: 50%;
+  width: 80%;
+  margin: 1em;
+}
+
+.section1 .perfil1 .subt-1 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-top: 52px;
+  font-family: 'Work Sans', sans-serif;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+
+.section1 .perfil1 .subt-2 {
+  font-weight: 400;
+  font-size: 1.6em;
+  margin-top: 52px;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.section1 .perfil1 .contact {
+  display: contents;
+}
+
+.section1 .perfil1 .contact i {
+  color: #00244a;
+  font-size: 24px;
+}
+
+.section1 .perfil1 .contact a {
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #000810;
+  font-weight: 200;
+}
+
+.section1 .perfil1 .contact a:hover {
+  /*color: rgb(13, 13, 116);*/
+  color: #F26D3D;
+  transform: scale(1.2em);
+  font-weight: 400;
+}
+
+.section1 .perfil1 .contact i:hover {
+  /*color: rgb(13, 13, 116);*/
+  color: #F26D3D;
+  font-size: 24px;
+}
+
+.social {
   margin: 10px;
 }
 
-.textobarra {
-  font-style: italic;
-  font-weight: 100;
-  writing-mode: vertical-lr;
-  text-align: center;
-  margin: 15px;
+.social .social-item {
+  margin: 20px;
+  font-weight: 200;
 }
 
-#awardtext{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: center;
+.social .social-item a {
+  text-decoration: none;
+  color: #000810;
+  font-size: 1.2em;
 }
 
-.textos2b1{
-  margin-left: 30px;
+.social .social-item i {
+  /*color: rgb(13, 13, 116);*/
+  color: #00244a;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.social .social-item a:hover {
+  /*color: rgb(13, 13, 116);*/
+  color: #F26D3D;
+  transform: scale(1.2em);
   font-weight: 400;
-  margin-top: 10px;
+}
+
+.social .social-item i:hover {
+  /*color: rgb(13, 13, 116);*/
+  color: #F26D3D;
+  transform: scale(1.2em);
+}
+
+.textlista1:hover {
+  /*color: rgb(13, 13, 116);*/
+  color: #F26D3D;
+  transform: scale(1.2em);
+  font-weight: 300;
+}
+
+.section1 .perfil1 .nombre-2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 4em;
   margin-bottom: 5px;
+  margin-top: 42px;
+  line-height: 1em;
+  display: none;
 }
 
-.textos2b2{
-  margin-left: 30px;
-  font-weight: 100;
-  margin-top: 2px;
-  margin-bottom: 2px;
+.section1 .perfil1 .prof-2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 5px;
+  display: none;
 }
 
-.textos2b3{
-  margin-left: 30px;
-  font-weight: 100;
-  font-size: 14px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-}
 
-#iheart, #billboards, #amas, #bet{
+/*Columna 2 del Perfil*/
+
+.section1 .perfil2 {
+  width: 65%;
   display: flex;
-  margin-left: 542px;
-  margin-top: 10px;
-  background: #F3F6FF;
+  flex-direction: column;
+  align-items: start;
+  padding: 4em;
 }
 
-.footerbckg{
-  background-color: #E2ECFF;
-  width: 1500px;
-  height: 90px;
+.section1 .perfil2 .box{
+  margin-top: 4em;
+}
+
+.section1 .perfil2 .nombre {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.2em;
+  margin-bottom: 5px;
+  margin-top: 0;
+  line-height: 1em;
+}
+
+.section1 .perfil2 .prof {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    font-size: 1.4em;
+    margin-top: 5px;
+}
+
+  .section1 .perfil2 .box p {
+    text-decoration: none;
+    color: #000b15;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+  } 
+
+  .info .info-item {
+    margin-bottom: 20px;
+    font-weight: 200;
+  }
+  
+  .info .info-item h5 {
+    color: #000810;
+    font-size: 1.1em;
+    font-weight: 300;
+  }
+  
+.info .info-item i {
+    color: #000810;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/*ALBUMS*/
+
+.albumbox-title {
+  height: 18em;
+  border: 1.5px solid #000b15;
+  background-color: #F3F6FF;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  width: 6em;
 }
 
-.footertext{
-  font-size: 30px;
+.subtflip-t {
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 0%;
+  align-self: center;
+}
+
+.albumbox-title-t {
+  height: 6em;
+  border: 1.5px solid #000b15;
+  background-color: #F3F6FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18em;
+  display: none;
+}
+
+.contalbums{
+  background-color: #c9daf7;
   display: flex;
   align-content: center;
   align-items: center;
+  margin: 2em 2em 0em 2em;
+  justify-content: space-evenly;
+}
+  
+
+.contalbums2{
+  background-color: #c9daf7;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  margin: 0 2em 2em 2em;
+  justify-content: space-evenly;
+
+}
+
+.albums {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-}
-
-
-/* Media query for screens with a maximum width of 768px */
-@media (max-width: 768px) {
 
 }
 
-/* Media query for screens with a maximum width of 480px */
-@media (max-width: 480px) {
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin: 20px;
+}
 
-  .rectangle{
-    width: 100vw;
+
+.album img {
+  width: 250px;
+  height: auto;
+}
+
+/*.sos , .ctrl , .gah, .s, .z, .see{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding-top: 2em;
+  padding-bottom: 2em ;
+  max-width: 100vw;
+}*/
+
+/*Animación ALBUMS*/
+.sos img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 5s;
+}
+
+.ctrl img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 8s;
+}
+
+.gah img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 11s;
+}
+
+.s img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 14s;
+}
+
+.z img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 17s;
+}
+
+.see img{
+  animation-name:boomBounce;
+  animation-duration: 3s;
+  animation-iteration-count:initial;
+  animation-delay: 20s;
+}
+
+@keyframes boomBounce{
+  0%{ 
+    scale: 1;
   }
 
+  50%{
+    scale: 1.1;
+  }
 
+  100%{
+scale: 1;
+  }
+}
 
-  #albumsbckg {
-    padding: 6vh ;
-    margin-top: 10vh;
-    height: 60vh;
-    width: 100%;
-    background: #E2ECFF;
+/*Section 2*/
+
+.section2 {
+  display: flex;
+  padding: 0px;
+  background: #F3F6FF;
+  margin: 2em;
+}
+
+.section2 .afteralbum {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c9daf7;
+  padding: 4vw;
+}
+
+.section2 .columna2 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  padding: 4em;
+}
+
+.subt-3 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subt-4 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 32px;
+  margin-top: 80px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subt-5 {
+  font-weight: 500;
+  font-size: 1.2em;
+  margin-bottom: 24px;
+  margin-top: 42px;
+  font-family: 'Work Sans', sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  display: none;
+}
+
+/*Habilidades y Educación*/
+
+  .columna1{
+    margin-top: 1em;
+  }
+
+  .educación{
+    margin-top: 3em;
+  }
+
+/*Premios*/
+
+  .rectangle2 {
+    width: 40px;
+    border: 1.5px solid #000b15;
+    display: flex;
+    align-items: center;
     justify-content: center;
     overflow: hidden;
-  
+    transform: rotate(180deg);
+    margin: 10px;
   }
-  .subtCentrados{
+
+  .textobarra {
+    /* font-style: italic; */
     font-weight: 400;
+    writing-mode: vertical-lr;
+    text-align: center;
+    margin: 20%;
+  }
+
+  #billboardsw, #iheart, #billboards, #amas, #bet {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  #awardtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .leyenda {
+    font-weight: 300;
+    margin: 0;
+    padding-left: 2em;
+    /* font-style: italic; */
+  }
+
+
+  /*FOOTER*/
+
+  .footerbckg{
+   /*background-color: #c9daf7;*/
+    background-color: #F26D3D;
+    height: 10%;
+    justify-content: center;
+    margin-top: 2em;
+    display: flex;
+    margin-bottom: 0;
+  }
+  
+  .footertext{
+    color: #00244a;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 auto;
-  }
-  
-  #albumscont {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  
-  #albumscont img {
-    width: 250px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-  }
-  
-  #albumstext1 , #albumstext2 {
-    display: flex;
-    justify-content: center;
-    
-  }
-  
-  .a1 {
-    display: flex;
-    font-weight: 400;
-      line-height: 10px;
-      width: 380px;
-      justify-content: center;
-      margin: 0%;
-  }
-  
-  .a2{
-    display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
     font-weight: 200;
-      line-height: 10px;
-      width: 380px;
-      justify-content: center;
+    margin: 0% auto;
+  }
+  
+  .scroll-to-top-image {
+    cursor: pointer;
+    width: 5em;
+    height: auto;
   }
   
 
+  @media screen and (max-width: 1020px) {
 
+    .contalbums {
+      flex-direction: column;
+    }
 
-  #billboardsw, #iheart, #billboards, #amas, #bet{
-    margin-left: 120px;
-    width: 400px;
+    .contalbums2 {
+      flex-direction: column;
+    }
+    
+    .albumbox-title {
+      display: none;
+    }
+    
+    .subtflip-t {
+      display: block;
+      font-size: 1.6em;
+    }
+    
+    .albumbox-title-t {
+      display: flex;
+      margin-top: 32px;
+      width: 14em;
+      height: 5em;
+    }
+
   }
-}
+
+
+  @media screen and (max-width: 980px) {
+
+    .section1 {
+      flex-direction: column;
+    }
+
+    .section1 .perfil1 .fotoPerfil {
+      border-radius: 50%;
+      width: 60%;
+      margin: 0.8em;
+    }
+
+    .section1 .perfil1,
+    .section1 .perfil2 {
+      width: 100%;
+    }
+
+    .section1 .perfil1 .subt-1 {
+      font-weight: 400;
+      font-size: 1.6em;
+      margin-top: 62px;
+    }
+
+    .section1 .perfil1 .contact a {
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+
+    .section1 .perfil1 .subt-2 {
+      font-weight: 400;
+      font-size: 1.6em;
+      margin-top: 42px;
+    }
+
+    .section1 .perfil1 .contact i {
+      font-size: 24px;
+    }
+
+    .section1 .perfil1 .nombre-2 {
+      display: block;
+    }
+    
+    .section1 .perfil1 .prof-2 {
+      display: block;
+    }
+
+    .social .social-item a {
+      font-size: 1.1em;
+      font-weight: 300;
+    }
+
+    .social .social-item i {
+      font-size: 24px;
+  }
+
+    .section1 .perfil2 .nombre {
+      display: none;
+    }
+    
+    .section1 .perfil2 .prof {
+        display: none;
+    }
+
+    .section1 .perfil2 .box {
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contalbums {
+      flex-direction: column;
+      padding: 32px 0px 0px 0px;
+    }
+
+    .contalbums2 {
+      flex-direction: column;
+      padding: 32px 0px 32px 0px;
+    }
+    
+    .albumbox-title {
+      display: none;
+    }
+    
+    .subtflip-t {
+      display: block;
+      font-size: 1.6em;
+    }
+    
+    .albumbox-title-t {
+      display: flex;
+      margin-top: 32px;
+      width: 14em;
+      height: 3.8em;
+    }
+
+    .section2 {
+      flex-direction: column;
+    }
+
+    .section2 .columna2,
+    .section2 .afteralbum {
+      width: 100%;
+    }
+
+    .columna1 {
+      margin-top: 0;
+      padding: 32px;
+    }
+
+    .sub2{
+      font-size: 1.2em;
+    }
+
+  }
+
+  @media screen and (max-width: 480px) {
+
+    .section1 {
+      margin: 1.5em;
+    }
+
+    .section1 .perfil1 {
+      padding: 1em;
+    }
+    
+    .section1 .perfil1 .nombre-2 {
+      display: block;
+      font-size: 2.4em;
+      margin-top: 24px;
+    }
+    
+    .section1 .perfil1 .prof-2 {
+      display: block;
+      font-size: 1.1em;
+    }
+
+    .section1 .perfil1 .subt-1 {
+      font-weight: 400;
+      font-size: 1.3em;
+      margin-top: 52px;
+    }
+
+    .section1 .perfil1 .contact a {
+      font-size: 1rem;
+    }
+
+    .section1 .perfil1 .contact i {
+      font-size: 18px;
+    }
+
+    .section1 .perfil1 .subt-2 {
+      margin-top: 32px;
+      font-size: 1.3em;
+    }  
+
+    .social .social-item a {
+      font-size: 1em;
+    }
+
+    .social .social-item i {
+      font-size: 20px;
+    }
+
+    .section1 .perfil2 .nombre {
+      display: none;
+    }
+    
+    .section1 .perfil2 .prof {
+        display: none;
+    }
+
+    .section1 .perfil1, .section1 .perfil2 {
+      padding: 2.2em;
+      display: flex;
+      align-items: center;
+    }
+
+    .section1 .perfil2 .box {
+      margin-top: 2em;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .boxsubt {
+      width: 10em;
+      height: 2.5em;
+      margin-top: 24px;
+    }
+
+    .subt {
+      font-size: 1.1em;
+    }
+
+    .subtflip-t {
+      display: block;
+      font-size: 1.1em;
+    }
+
+    .albumbox-title-t {
+      width: 10em;
+      height: 3em;
+    }
+
+    .section2 .columna2, .section2 .afteralbum {
+      width: 100%;
+      padding: 24px;
+    }
+
+    .rectangle2 {
+      display: none;
+    }  
+
+    .subt-5 {
+      display: block;
+      font-size: 1.1em;
+    }
+
+    #billboardsw, #iheart, #billboards, #amas, #bet {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+  }
